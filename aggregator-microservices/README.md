@@ -13,7 +13,7 @@ tags:
 ## Intent
 
 The user makes a single call to the Aggregator, and the aggregator then calls each relevant microservice and collects
-the data, apply business logic to it, and further publish is as a REST Endpoint.
+the data, apply business logic to it, and further publish it as a REST Endpoint.
 More variations of the aggregator are: 
 - Proxy Microservice Design Pattern: A different microservice is called upon the business need. 
 - Chained Microservice Design Pattern: In this case each microservice is dependent/ chained to a series 
